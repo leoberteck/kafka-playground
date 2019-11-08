@@ -1,0 +1,12 @@
+{
+  "namespace": "com.solinftec.k.modelo",
+  "type": "record",
+  "name": "monitoramentovalue",
+  "fields": [
+    { "name": "cd_cliente", "type": "int" },
+    { "name": "cd_equipamento", "type": "string" },
+    { "name": "timestamp", "type": "long" },
+    { "name": "velocidade", "type": "double" },
+    { "name": "geohash", "type": "string" }
+  ]
+}

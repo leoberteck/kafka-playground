@@ -1,0 +1,1 @@
+{"namespace":"com.solinftec.k.modelo","type":"record","name":"monitoramentokey","fields":[{"name":"cd_cliente","type":"int"},{"name":"cd_equipamento","type":"string"}]}
