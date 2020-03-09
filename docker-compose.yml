@@ -79,6 +79,11 @@ services:
       - postgres
     ports:
       - "8083:8083"
+    volumes:
+      - "~/lib/ojdbc6.jar:/usr/share/java/kafka-connect-jdbc/ojdbc6.jar"
+    # volumes:
+    #   - "~/lib:/usr/share/java/oracle"
+    # command: ["cp", "/usr/share/java/oracle/ojdbc6.jar", "/usr/share/java/kafka-connect-jdbc/ojdbc6.jar"]
     environment:
       CONNECT_BOOTSTRAP_SERVERS: kafka:29092
       CONNECT_REST_PORT: 8083

@@ -1,6 +1,0 @@
-#!/bin/bash
-#
-# (Copyright) Confluent, Inc.
-#
-
-exec $(dirname $0)/stub-api-run-class io.confluent.rbacapi.stubs.StubRbacApiMain "$@"
